@@ -17,4 +17,5 @@ jobs:
       run: yarn format:check
     - name: Check quality with ESLint
       run: yarn lint
+    - name: check tests with jest
       run: yarn test
