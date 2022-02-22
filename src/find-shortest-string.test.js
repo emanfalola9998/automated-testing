@@ -11,5 +11,5 @@ test("findshorteststring finds the shortest string in an array", () => {
 test("findshortest returns the earlier string in cases of joint shortest strings", () => {
   expect(findShortestString(["short", "films"])).toBe("short");
   expect(findShortestString(["song", "see", "zero", "sam"])).toBe("see");
-  expect(findShortestString(["luke", "john", "zara"])).toBe("luke");
+  expect(findShortestString(["matt", "john", "zara"])).toBe("matt");
 });
